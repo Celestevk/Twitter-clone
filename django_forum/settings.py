@@ -56,27 +56,27 @@ TEMPLATES = [
             ],
         },
     },
-]
+    ]
 
-# WSGI_APPLICATION = 'django_forum.wsgi.application'
+WSGI_APPLICATION = 'django_forum.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
 # DATABASES = {
 #     'default': {
-#         "ENGINE": "django.db.backends.postgresql",
-#         "NAME": "dcqfkoqm2hgcs3",
-#         "USER": "qafhnzurwxfblh",
-#         "HOST": "ec2-34-233-64-238.compute-1.amazonaws.com",
-#         "PORT": 5432,
-#         "PASSWORD": "653f19ffe589a832ad40627635eda041506be1bd65420be7f58b5d422509825e",
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+DATABASES = {
+    'default': {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "db7d355ekr97oc",
+        "USER": "mrbapfmkiedprq",
+        "HOST": "ec2-3-230-219-251.compute-1.amazonaws.com",
+        "PORT": 5432,
+        "PASSWORD": "f36deb8254914c743aa48a99e7e4bfc715176c028ddddd694970771a586a5e14",
+    }
+}
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 AUTH_PASSWORD_VALIDATORS = [
